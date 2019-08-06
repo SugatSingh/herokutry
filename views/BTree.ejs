@@ -1,0 +1,39 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>B tree</title>
+    <link rel="stylesheet" href="Home.css">
+
+   
+</head>
+<body> -->
+
+<% include partials/header %>
+    
+    <div class="container" id ="instruction" margin-bottom = 30px>
+            <h1 align = 'center'>BTree</h1>
+        <form id ="degree">
+                <p ><span>Degree of BTree</span></p>
+                <input type="radio" name="degree" id="defaultdegree">2  
+                <input type="radio" name="degree" id="nondefaultdegree">3 <br>
+        </form>
+        
+        <p><span>Insert into Btree</span></p>
+        <input type="number" id="textInsert">
+        <p><span>Remove from Btree</span></p>
+        <input type="number" id="textRemove">
+        <p><span>Search Element</span></p>
+        <input type="number" id="textSearch">
+        <hr>
+            
+    </div>
+    <div class = "container-fluid"><canvas id='myCanvas' resize ></canvas></div>
+
+   
+    <script type = "text/javascript" src="paper-full.js"></script>
+    <script type ="text/paperscript" src="B-tree.js" canvas ="myCanvas"></script>
+</body>
+</html>

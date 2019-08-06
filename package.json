@@ -1,0 +1,25 @@
+{
+  "name": "firstexpressapp",
+  "version": "1.0.0",
+  "description": "project",
+  "main": "App.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node App.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shrest4647/FirstExpressApp.git"
+  },
+  "author": "Sunil Shrestha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Shrest4647/FirstExpressApp/issues"
+  },
+  "homepage": "https://github.com/Shrest4647/FirstExpressApp#readme",
+  "dependencies": {
+    "ejs": "^2.6.2",
+    "express": "^4.17.1",
+    "mongodb": "^3.2.7"
+  }
+}
